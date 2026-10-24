@@ -1,0 +1,10 @@
+#!/bin/sh
+# Lint the staged Lua files with luacheck (configured in .luacheckrc) and stop the commit if it reports anything.
+# Turn it on once per clone with: git config core.hooksPath .githooks
+
+if ! command -v luacheck >/dev/null 2>&1; then
+  echo "pre-commit: luacheck isn't installed (luarocks install luacheck); see CONTRIBUTING.md" >&2
+  exit 1
+fi
+
+git diff --cached --name-only --diff-filter=ACMR -z -- '*.lua' | xargs -0 -r luacheck

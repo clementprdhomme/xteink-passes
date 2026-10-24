@@ -1,0 +1,74 @@
+# Passes: French messages, translated from en.tsv
+
+app.name	Pass
+
+home.empty.title	Aucune carte enregistrée
+home.empty.text	Gardez ici vos billets, abonnements et cartes de fidélité, prêts à être scannés.
+home.create_first	Créer votre première carte
+home.new_pass	Nouvelle carte
+page.indicator	Page {page} sur {total}
+
+menu.edit	Modifier
+menu.move_up	Déplacer vers le haut
+menu.move_down	Déplacer vers le bas
+menu.move_top	Déplacer au début
+menu.lockscreen_show	Afficher sur l'écran verrouillé
+menu.lockscreen_remove	Retirer de l'écran verrouillé
+menu.delete	Supprimer
+
+delete.title	Supprimer cette carte ?
+delete.message	Cette action est irréversible.
+delete.ok	Supprimer
+
+lockscreen.shown	Cette carte est maintenant sur l'écran verrouillé
+lockscreen.empty	Aucune carte à afficher. Choisissez-en une dans {app}.
+
+form.title_new	Nouvelle carte
+form.title_edit	Modifier la carte
+form.field.name	Nom
+form.field.format	Format
+form.field.data	Données
+form.field.notes	Notes
+form.not_set	Non renseigné
+form.create	Créer la carte
+form.save	Enregistrer la carte
+form.incomplete_create	Indiquez le nom, le format et les données pour créer la carte
+form.incomplete_save	Indiquez le nom, le format et les données pour enregistrer la carte
+
+format.question	Quel code figure sur votre carte ?
+format.qr.label	Code QR
+format.qr.description	Un carré avec trois carrés dans les coins
+format.aztec.label	Aztec
+format.aztec.description	Un carré avec une cible au centre
+format.code128.label	Code 128
+format.code128.description	Des barres de toutes largeurs, avec des lettres ou chiffres dessous
+format.itf.label	ITF
+format.itf.description	Des barres fines et épaisses seulement, avec des chiffres dessous
+format.pdf417.label	PDF417
+format.pdf417.description	Un large rectangle rempli de minuscules barres
+format.code128.instructions	Lettres, chiffres et symboles, sans accents
+format.itf.instructions	Chiffres uniquement
+
+code.too_long	Trop long pour {format}
+code.code128_characters	Code 128 : texte ASCII simple uniquement
+code.itf_characters	L'ITF n'accepte que des chiffres
+code.thin_bars	Données longues : barres fines, peu lisibles
+
+pass.unable	Impossible d'afficher le code
+
+about.title	À propos
+about.how.heading	Mode d'emploi
+about.third_party.heading	Code tiers
+about.how.add	Pour ajouter une carte, choisissez « {button} », donnez-lui un nom et choisissez le format du code figurant sur votre billet ou votre carte. Saisissez ensuite le texte ou le nombre contenu dans le code : pour un code-barres, il est généralement imprimé sous les barres. Vous pouvez aussi ajouter de courtes notes, comme une place ou une porte, affichées sur la carte.
+about.how.show_light	Pour présenter une carte, ouvrez-la depuis la liste et placez l'écran face au lecteur. Dans un endroit sombre, le bouton d'éclairage règle l'éclairage au maximum jusqu'à ce que vous quittiez la carte.
+about.how.show	Pour présenter une carte, ouvrez-la depuis la liste et placez l'écran face au lecteur.
+about.how.sideways	Les codes-barres s'étendent sur toute la hauteur de la carte pour être aussi grands que possible. Si un lecteur n'arrive pas à en lire un, tournez l'appareil sur le côté.
+about.how.menu_touch	Maintenez le doigt sur une carte de la liste pour la modifier, la déplacer, l'afficher sur l'écran verrouillé ou la supprimer. Balayez l'écran ou utilisez les touches de page pour changer de page.
+about.how.menu_keys	Maintenez OK enfoncé sur une carte de la liste pour la modifier, la déplacer, l'afficher sur l'écran verrouillé ou la supprimer. Allez au-delà de la première ou de la dernière carte d'une page pour changer de page.
+about.how.switch_touch	Sur une carte, balayez l'écran ou utilisez les touches de page pour passer à la carte suivante ou précédente.
+about.how.switch_keys	Sur une carte, appuyez sur bas ou haut pour passer à la carte suivante ou précédente.
+about.how.lockscreen	Une carte affichée sur l'écran verrouillé y reste pendant la veille de l'appareil : vous pouvez ainsi la présenter sans déverrouiller l'appareil.
+about.app.version	Version {version}, créée par {author}. Publiée sous la MIT License.
+about.app.source	Code source et licences :\n{repository}
+about.third_party.zxing	Les encodeurs Aztec, Code 128, ITF et PDF417 sont des portages de ZXing (github.com/zxing/zxing), copyright des auteurs de ZXing, sous Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). Le texte complet de la licence se trouve dans le code source.
+about.third_party.barcode4j	L'encodeur PDF417 contient du code que ZXing a modifié à partir de Barcode4J :

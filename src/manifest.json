@@ -1,0 +1,43 @@
+{
+  "app_id": "passes-cf1edd37",
+  "display_name": "Passes",
+  "display_names": {
+    "en": "Passes",
+    "zh": "卡券",
+    "ja": "パス",
+    "ko": "패스",
+    "tr": "Kartlar",
+    "de": "Tickets",
+    "fr": "Pass",
+    "es": "Pases",
+    "it": "Pass",
+    "pt": "Passes",
+    "nl": "Pasjes",
+    "ru": "Карточки",
+    "pl": "Karty",
+    "cs": "Karty",
+    "hu": "Kártyák",
+    "vi": "Thẻ",
+    "ms": "Pas",
+    "id": "Pass",
+    "th": "บัตร",
+    "el": "Πάσα",
+    "bo": "ལག་འཁྱེར",
+    "sv": "Kort"
+  },
+  "version": "1.0.0",
+  "api": "2.12",
+  "entry": "index.lua",
+  "display": {
+    "orientation": "portrait"
+  },
+  "app_icon_s": "app-icon",
+  "preload_assets": [],
+  "author": "Clément Prod'homme",
+  "description": "Keep tickets, memberships and loyalty cards as passes you can scan.",
+  "requires": ["ui", "dialog", "image_transform"],
+  "lockscreen": {
+    "entry": "lockscreen.lua",
+    "interval_sec": 3600
+  }
+}

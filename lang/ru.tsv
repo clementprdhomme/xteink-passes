@@ -1,0 +1,74 @@
+# Passes: Russian messages, translated from en.tsv
+
+app.name	Карточки
+
+home.empty.title	Пока ничего не сохранено
+home.empty.text	Храните здесь билеты, абонементы и карты лояльности, чтобы показывать их для сканирования.
+home.create_first	Создать первую карту
+home.new_pass	Новая карта
+page.indicator	Страница {page} из {total}
+
+menu.edit	Изменить
+menu.move_up	Переместить вверх
+menu.move_down	Переместить вниз
+menu.move_top	Переместить в начало
+menu.lockscreen_show	Показать на экране блокировки
+menu.lockscreen_remove	Убрать с экрана блокировки
+menu.delete	Удалить
+
+delete.title	Удалить эту карту?
+delete.message	Это действие нельзя отменить.
+delete.ok	Удалить
+
+lockscreen.shown	Карта теперь на экране блокировки
+lockscreen.empty	Нет карты для показа. Выберите ее в приложении «{app}».
+
+form.title_new	Новая карта
+form.title_edit	Редактирование карты
+form.field.name	Название
+form.field.format	Формат
+form.field.data	Данные
+form.field.notes	Заметки
+form.not_set	Не задано
+form.create	Создать карту
+form.save	Сохранить карту
+form.incomplete_create	Для создания карты нужны название, формат и данные
+form.incomplete_save	Для сохранения нужны название, формат и данные
+
+format.question	Какой код на вашей карте?
+format.qr.label	QR-код
+format.qr.description	Квадрат с тремя квадратиками в углах
+format.aztec.label	Aztec
+format.aztec.description	Квадрат с мишенью в центре
+format.code128.label	Code 128
+format.code128.description	Полосы разной ширины, под ними буквы или цифры
+format.itf.label	ITF
+format.itf.description	Только тонкие и толстые полосы, под ними цифры
+format.pdf417.label	PDF417
+format.pdf417.description	Широкий прямоугольник из мелких полосок
+format.code128.instructions	Латинские буквы без диакритики, цифры, символы
+format.itf.instructions	Только цифры
+
+code.too_long	Слишком длинные данные для {format}
+code.code128_characters	Code 128 поддерживает только текст ASCII
+code.itf_characters	ITF поддерживает только цифры
+code.thin_bars	Может не сканироваться: полосы слишком тонкие
+
+pass.unable	Не удалось показать код
+
+about.title	О приложении
+about.how.heading	Как пользоваться
+about.third_party.heading	Сторонний код
+about.how.add	Чтобы добавить карту, выберите «{button}», введите название и укажите формат кода на билете или карте. Затем введите текст или число, записанные в коде: у штрихкода они обычно напечатаны под полосами. Можно также добавить короткие заметки с билета, например место или выход.
+about.how.show_light	Чтобы показать карту, откройте ее из списка и поднесите экран к сканеру. В темноте кнопка подсветки включает подсветку на полную яркость, пока карта открыта.
+about.how.show	Чтобы показать карту, откройте ее из списка и поднесите экран к сканеру.
+about.how.sideways	Штрихкоды расположены вдоль билета, чтобы быть как можно крупнее. Если сканер не может прочитать штрихкод, поверните устройство горизонтально.
+about.how.menu_touch	Нажмите и удерживайте карту в списке, чтобы изменить, переместить, показать на экране блокировки или удалить ее. Чтобы листать список, проведите по экрану либо используйте кнопки перелистывания.
+about.how.menu_keys	Удерживайте OK на карте в списке, чтобы изменить, переместить, показать на экране блокировки или удалить ее. Чтобы перелистнуть страницу, перейдите дальше первой или последней карты на странице.
+about.how.switch_touch	На экране карты проведите по экрану либо используйте кнопки перелистывания, чтобы перейти к следующей или предыдущей карте.
+about.how.switch_keys	На экране карты нажмите вниз или вверх, чтобы перейти к следующей или предыдущей карте.
+about.how.lockscreen	Карта на экране блокировки остается на экране, пока устройство в режиме сна, поэтому ее можно показать, не разблокируя устройство.
+about.app.version	Версия {version}, автор: {author}. Распространяется по лицензии MIT License.
+about.app.source	Исходный код и лицензии:\n{repository}
+about.third_party.zxing	Кодировщики Aztec, Code 128, ITF и PDF417 перенесены из ZXing (github.com/zxing/zxing), авторские права принадлежат авторам ZXing, лицензия Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). Полный текст лицензии находится в исходном коде.
+about.third_party.barcode4j	Кодировщик PDF417 содержит код из Barcode4J, измененный разработчиками ZXing:

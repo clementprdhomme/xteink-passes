@@ -1,0 +1,68 @@
+name: Translation
+description: A wrong, unclear or missing text in a language
+title: "[Translation] "
+labels: ["translation"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - Chinese (Simplified)
+        - Czech
+        - Dutch
+        - English
+        - French
+        - German
+        - Greek
+        - Hungarian
+        - Indonesian
+        - Italian
+        - Japanese
+        - Korean
+        - Malay
+        - Polish
+        - Portuguese
+        - Russian
+        - Spanish
+        - Swedish
+        - Thai
+        - Tibetan
+        - Turkish
+        - Vietnamese
+    validations:
+      required: true
+
+  - type: input
+    id: screen
+    attributes:
+      label: Screen
+      description: Where the text is
+      placeholder: Home screen, form, About screen…
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: As shown on the device
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested text
+      description: |
+        The screen is narrow: most texts sit on one line, so keep them about as short as the English one.
+    validations:
+      required: true
+
+  - type: upload
+    id: photos
+    attributes:
+      label: Photo of the screen
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif"

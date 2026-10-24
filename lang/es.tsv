@@ -1,0 +1,74 @@
+# Passes: Spanish messages, translated from en.tsv
+
+app.name	Pases
+
+home.empty.title	Aún no hay nada guardado
+home.empty.text	Guarda aquí entradas, abonos y tarjetas de fidelización como pases que puedes escanear.
+home.create_first	Crear tu primer pase
+home.new_pass	Nuevo pase
+page.indicator	Página {page} de {total}
+
+menu.edit	Editar
+menu.move_up	Subir
+menu.move_down	Bajar
+menu.move_top	Mover al principio
+menu.lockscreen_show	Mostrar en la pantalla de bloqueo
+menu.lockscreen_remove	Quitar de la pantalla de bloqueo
+menu.delete	Eliminar
+
+delete.title	¿Eliminar este pase?
+delete.message	Esta acción no se puede deshacer.
+delete.ok	Eliminar
+
+lockscreen.shown	Este pase ya está en la pantalla de bloqueo
+lockscreen.empty	No hay ningún pase que mostrar. Elige uno en {app}.
+
+form.title_new	Nuevo pase
+form.title_edit	Editar pase
+form.field.name	Nombre
+form.field.format	Formato
+form.field.data	Datos
+form.field.notes	Notas
+form.not_set	Sin definir
+form.create	Crear pase
+form.save	Guardar pase
+form.incomplete_create	Completa el nombre, el formato y los datos para crear el pase
+form.incomplete_save	Completa el nombre, el formato y los datos para guardar el pase
+
+format.question	¿Qué código tiene tu pase?
+format.qr.label	Código QR
+format.qr.description	Un cuadrado con tres recuadros en las esquinas
+format.aztec.label	Aztec
+format.aztec.description	Un cuadrado con una diana en el centro
+format.code128.label	Code 128
+format.code128.description	Barras de muchos grosores, con letras o dígitos debajo
+format.itf.label	ITF
+format.itf.description	Solo barras finas y gruesas, con dígitos debajo
+format.pdf417.label	PDF417
+format.pdf417.description	Un rectángulo ancho lleno de barras diminutas
+format.code128.instructions	Letras, dígitos y símbolos, sin acentos ni ñ
+format.itf.instructions	Solo dígitos
+
+code.too_long	Demasiado largo para {format}
+code.code128_characters	Code 128 solo admite texto ASCII simple
+code.itf_characters	ITF solo admite dígitos
+code.thin_bars	Quizá no se lea: datos largos, barras finas
+
+pass.unable	No se puede mostrar el código
+
+about.title	Acerca de
+about.how.heading	Cómo se usa
+about.third_party.heading	Código de terceros
+about.how.add	Para añadir un pase, elige «{button}», ponle un nombre y elige el formato del código de tu entrada o tarjeta. Después, escribe el texto o el número que guarda el código: en un código de barras, suele estar impreso debajo de las barras. También puedes añadir notas breves, como un asiento o una puerta, que se muestran en el pase.
+about.how.show_light	Para mostrar un pase, ábrelo desde la lista y acerca la pantalla al lector. Si hay poca luz, el botón de luz sube la luz frontal al máximo brillo hasta que salgas del pase.
+about.how.show	Para mostrar un pase, ábrelo desde la lista y acerca la pantalla al lector.
+about.how.sideways	Los códigos de barras van a lo largo del pase para que sean lo más grandes posible. Si un lector no consigue leer uno, gira el dispositivo de lado.
+about.how.menu_touch	Mantén presionado un pase de la lista para editarlo, moverlo, mostrarlo en la pantalla de bloqueo o eliminarlo. Desliza el dedo o usa los botones de página para pasar las páginas de la lista.
+about.how.menu_keys	Mantén presionado OK sobre un pase de la lista para editarlo, moverlo, mostrarlo en la pantalla de bloqueo o eliminarlo. Ve más allá del primer o del último pase de una página para cambiar de página.
+about.how.switch_touch	En un pase, desliza el dedo o usa los botones de página para ir al pase siguiente o anterior.
+about.how.switch_keys	En un pase, presiona abajo o arriba para ir al pase siguiente o anterior.
+about.how.lockscreen	Un pase en la pantalla de bloqueo se queda en la pantalla mientras el dispositivo está en reposo, así que puedes mostrarlo sin desbloquear el dispositivo.
+about.app.version	Versión {version}, creada por {author}. Publicada bajo la MIT License.
+about.app.source	Código fuente y licencias:\n{repository}
+about.third_party.zxing	Los codificadores Aztec, Code 128, ITF y PDF417 son adaptaciones de ZXing (github.com/zxing/zxing), copyright de los autores de ZXing, con licencia Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). El texto completo de la licencia está en el código fuente.
+about.third_party.barcode4j	El codificador PDF417 contiene código que ZXing modificó a partir de Barcode4J:

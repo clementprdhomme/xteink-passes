@@ -1,0 +1,74 @@
+# Passes: Hungarian messages, translated from en.tsv
+
+app.name	Kártyák
+
+home.empty.title	Még nincs semmi mentve
+home.empty.text	Tartsa itt jegyeit, tagsági és hűségkártyáit beolvasható kártyaként.
+home.create_first	Első kártya létrehozása
+home.new_pass	Új kártya
+page.indicator	Oldal: {page}/{total}
+
+menu.edit	Szerkesztés
+menu.move_up	Mozgatás felfelé
+menu.move_down	Mozgatás lefelé
+menu.move_top	Mozgatás a lista tetejére
+menu.lockscreen_show	Megjelenítés a zárolási képernyőn
+menu.lockscreen_remove	Eltávolítás a zárolási képernyőről
+menu.delete	Törlés
+
+delete.title	Törli ezt a kártyát?
+delete.message	Ez a művelet nem vonható vissza.
+delete.ok	Törlés
+
+lockscreen.shown	A kártya most már a zárolási képernyőn van
+lockscreen.empty	Nincs megjeleníthető kártya. Válasszon egyet a {app} appban.
+
+form.title_new	Új kártya
+form.title_edit	Kártya szerkesztése
+form.field.name	Név
+form.field.format	Formátum
+form.field.data	Adatok
+form.field.notes	Jegyzetek
+form.not_set	Nincs megadva
+form.create	Kártya létrehozása
+form.save	Kártya mentése
+form.incomplete_create	A létrehozáshoz adja meg a nevet, a formátumot és az adatokat
+form.incomplete_save	A mentéshez adja meg a nevet, a formátumot és az adatokat
+
+format.question	Milyen kód van a kártyáján?
+format.qr.label	QR-kód
+format.qr.description	Négyzet, a sarkaiban három kis négyzettel
+format.aztec.label	Aztec
+format.aztec.description	Négyzet, a közepén céltáblával
+format.code128.label	Code 128
+format.code128.description	Különböző vastagságú vonalak, alattuk betűk vagy számok
+format.itf.label	ITF
+format.itf.description	Csak vékony és vastag vonalak, alattuk számjegyek
+format.pdf417.label	PDF417
+format.pdf417.description	Széles téglalap, tele apró vonalakkal
+format.code128.instructions	Betűk, számjegyek és jelek, ékezetek nélkül
+format.itf.instructions	Csak számjegyek
+
+code.too_long	Túl hosszú ehhez a formátumhoz: {format}
+code.code128_characters	A Code 128 csak ASCII-szöveget támogat
+code.itf_characters	Az ITF csak számjegyeket támogat
+code.thin_bars	Talán nem olvasható be: a vonalak túl vékonyak
+
+pass.unable	A kód nem jeleníthető meg
+
+about.title	Névjegy
+about.how.heading	Használat
+about.third_party.heading	Harmadik féltől származó kód
+about.how.add	Kártya hozzáadásához válassza az {button} gombot, adjon neki nevet, és válassza ki a jegyén vagy kártyáján lévő kód formátumát. Ezután írja be a kódban tárolt szöveget vagy számot: vonalkódnál ez általában a vonalak alá van nyomtatva. Rövid jegyzeteket is hozzáadhat, például a jegyen szereplő ülőhelyet vagy kaput.
+about.how.show_light	Kártya felmutatásához nyissa meg a listából, és tartsa a képernyőt a leolvasó elé. Gyenge fényben a világítás gomb teljes fényerőre állítja a képernyő világítását, amíg a kártya nyitva van.
+about.how.show	Kártya felmutatásához nyissa meg a listából, és tartsa a képernyőt a leolvasó elé.
+about.how.sideways	A vonalkódok a jegy hosszában futnak, hogy a lehető legnagyobbak legyenek. Ha a leolvasó nem tud beolvasni egyet, fordítsa el oldalra az eszközt.
+about.how.menu_touch	Tartsa megérintve a listában egy kártyát a szerkesztéséhez, áthelyezéséhez, a zárolási képernyőn való megjelenítéséhez vagy törléséhez. A lista lapozásához csúsztassa el az ujját, vagy használja a lapozógombokat.
+about.how.menu_keys	Tartsa lenyomva az OK gombot a listában egy kártyán a szerkesztéséhez, áthelyezéséhez, a zárolási képernyőn való megjelenítéséhez vagy törléséhez. Lapozáshoz lépjen túl az oldal első vagy utolsó kártyáján.
+about.how.switch_touch	Egy kártyán csúsztassa el az ujját, vagy használja a lapozógombokat a következő vagy az előző kártyára lépéshez.
+about.how.switch_keys	Egy kártyán nyomja meg a le vagy fel gombot a következő vagy az előző kártyára lépéshez.
+about.how.lockscreen	A zárolási képernyőre tett kártya a képernyőn marad, amíg az eszköz alvó módban van, így feloldás nélkül is felmutathatja.
+about.app.version	{version} verzió, készítette: {author}. Az MIT License alatt kiadva.
+about.app.source	Forráskód és licencek:\n{repository}
+about.third_party.zxing	Az Aztec, Code 128, ITF és PDF417 kódolók a ZXing (github.com/zxing/zxing) átiratai. Szerzői jog: a ZXing szerzői. Licenc: Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). A licenc teljes szövege a forráskódban található.
+about.third_party.barcode4j	A PDF417 kódoló olyan kódot tartalmaz, amelyet a ZXing a Barcode4J-ből vett át és módosított:

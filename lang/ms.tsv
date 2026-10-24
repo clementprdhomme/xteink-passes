@@ -1,0 +1,74 @@
+# Passes: Malay messages, translated from en.tsv
+
+app.name	Pas
+
+home.empty.title	Belum ada apa-apa disimpan
+home.empty.text	Simpan tiket, kad keahlian dan kad kesetiaan di sini sebagai pas yang boleh diimbas.
+home.create_first	Cipta pas pertama anda
+home.new_pass	Pas baharu
+page.indicator	Halaman {page} daripada {total}
+
+menu.edit	Edit
+menu.move_up	Alih ke atas
+menu.move_down	Alih ke bawah
+menu.move_top	Alih ke paling atas
+menu.lockscreen_show	Tunjukkan pada skrin kunci
+menu.lockscreen_remove	Keluarkan daripada skrin kunci
+menu.delete	Padam
+
+delete.title	Padam pas ini?
+delete.message	Tindakan ini tidak boleh dibuat asal.
+delete.ok	Padam
+
+lockscreen.shown	Pas ini kini pada skrin kunci
+lockscreen.empty	Tiada pas untuk ditunjukkan. Pilih satu dalam app {app}.
+
+form.title_new	Pas baharu
+form.title_edit	Edit pas
+form.field.name	Nama
+form.field.format	Format
+form.field.data	Data
+form.field.notes	Nota
+form.not_set	Tidak disetkan
+form.create	Cipta pas
+form.save	Simpan pas
+form.incomplete_create	Isikan nama, format dan data untuk mencipta pas
+form.incomplete_save	Isikan nama, format dan data untuk menyimpan pas
+
+format.question	Kod apakah yang ada pada pas anda?
+format.qr.label	Kod QR
+format.qr.description	Segi empat sama dengan tiga kotak di penjurunya
+format.aztec.label	Aztec
+format.aztec.description	Segi empat sama dengan sasaran di tengahnya
+format.code128.label	Code 128
+format.code128.description	Bar pelbagai lebar, dengan huruf atau digit di bawahnya
+format.itf.label	ITF
+format.itf.description	Hanya bar nipis dan tebal, dengan digit di bawahnya
+format.pdf417.label	PDF417
+format.pdf417.description	Segi empat tepat lebar yang penuh dengan bar halus
+format.code128.instructions	Huruf, digit dan simbol, tanpa aksen
+format.itf.instructions	Digit sahaja
+
+code.too_long	Terlalu panjang untuk {format}
+code.code128_characters	Code 128 hanya menyokong teks ASCII biasa
+code.itf_characters	ITF hanya menyokong digit
+code.thin_bars	Sukar diimbas: data panjang menipiskan bar
+
+pass.unable	Tidak dapat memaparkan kod
+
+about.title	Perihal
+about.how.heading	Cara menggunakan
+about.third_party.heading	Kod pihak ketiga
+about.how.add	Untuk menambah pas, pilih {button}, beri nama dan pilih format kod pada tiket atau kad anda. Kemudian taipkan teks atau nombor yang disimpan dalam kod: bagi kod bar, ia biasanya dicetak di bawah bar. Anda juga boleh menambah nota pendek yang tertera pada tiket, seperti tempat duduk atau pintu.
+about.how.show_light	Untuk menunjukkan pas, bukanya daripada senarai dan halakan skrin ke pengimbas. Di tempat yang malap, butang lampu menaikkan lampu skrin ke kecerahan penuh sehingga anda keluar daripada pas.
+about.how.show	Untuk menunjukkan pas, bukanya daripada senarai dan halakan skrin ke pengimbas.
+about.how.sideways	Kod bar dipaparkan memanjang pada tiket supaya sebesar yang mungkin. Jika pengimbas tidak dapat membacanya, pusingkan peranti ke sisi.
+about.how.menu_touch	Sentuh dan tahan pas dalam senarai untuk mengedit, mengalih, menunjukkannya pada skrin kunci atau memadamkannya. Leret skrin atau gunakan kekunci halaman untuk membalik halaman senarai.
+about.how.menu_keys	Tahan OK pada pas dalam senarai untuk mengedit, mengalih, menunjukkannya pada skrin kunci atau memadamkannya. Bergerak melepasi pas pertama atau terakhir pada halaman untuk membalik halaman.
+about.how.switch_touch	Pada pas, leret skrin atau gunakan kekunci halaman untuk pergi ke pas seterusnya atau sebelumnya.
+about.how.switch_keys	Pada pas, tekan bawah atau atas untuk pergi ke pas seterusnya atau sebelumnya.
+about.how.lockscreen	Pas pada skrin kunci kekal pada skrin semasa peranti tidur, jadi anda boleh menunjukkannya tanpa membuka kunci peranti.
+about.app.version	Versi {version}, dibuat oleh {author}. Dikeluarkan di bawah MIT License.
+about.app.source	Kod sumber dan lesen:\n{repository}
+about.third_party.zxing	Pengekod Aztec, Code 128, ITF dan PDF417 ialah port daripada ZXing (github.com/zxing/zxing), hak cipta pengarang ZXing, dilesenkan di bawah Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). Teks lesen penuh terdapat dalam kod sumber.
+about.third_party.barcode4j	Pengekod PDF417 mengandungi kod yang diubah suai oleh ZXing daripada Barcode4J:

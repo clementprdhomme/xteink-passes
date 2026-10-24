@@ -1,0 +1,74 @@
+# Passes: Dutch messages, translated from en.tsv
+
+app.name	Pasjes
+
+home.empty.title	Nog niets bewaard
+home.empty.text	Bewaar hier tickets, lidmaatschappen en klantenkaarten als passen die je kunt laten scannen.
+home.create_first	Maak je eerste pas
+home.new_pass	Nieuwe pas
+page.indicator	Pagina {page} van {total}
+
+menu.edit	Bewerken
+menu.move_up	Omhoog verplaatsen
+menu.move_down	Omlaag verplaatsen
+menu.move_top	Bovenaan plaatsen
+menu.lockscreen_show	Tonen op vergrendelscherm
+menu.lockscreen_remove	Verwijderen van vergrendelscherm
+menu.delete	Verwijderen
+
+delete.title	Deze pas verwijderen?
+delete.message	Dit kan niet ongedaan worden gemaakt.
+delete.ok	Verwijderen
+
+lockscreen.shown	Deze pas staat nu op het vergrendelscherm
+lockscreen.empty	Geen pas om te tonen. Kies er een in {app}.
+
+form.title_new	Nieuwe pas
+form.title_edit	Pas bewerken
+form.field.name	Naam
+form.field.format	Formaat
+form.field.data	Gegevens
+form.field.notes	Notities
+form.not_set	Niet ingesteld
+form.create	Pas aanmaken
+form.save	Pas opslaan
+form.incomplete_create	Vul naam, formaat en gegevens in om een pas te maken
+form.incomplete_save	Vul naam, formaat en gegevens in om de pas op te slaan
+
+format.question	Welke code staat er op je pas?
+format.qr.label	QR-code
+format.qr.description	Een vierkant met drie blokjes in de hoeken
+format.aztec.label	Aztec
+format.aztec.description	Een vierkant met een schietschijf in het midden
+format.code128.label	Code 128
+format.code128.description	Streepjes van allerlei diktes, met letters of cijfers eronder
+format.itf.label	ITF
+format.itf.description	Alleen dunne en dikke streepjes, met cijfers eronder
+format.pdf417.label	PDF417
+format.pdf417.description	Een brede rechthoek vol piepkleine streepjes
+format.code128.instructions	Letters, cijfers en symbolen, zonder accenten
+format.itf.instructions	Alleen cijfers
+
+code.too_long	Te lang voor {format}
+code.code128_characters	Code 128 ondersteunt alleen gewone ASCII-tekst
+code.itf_characters	ITF ondersteunt alleen cijfers
+code.thin_bars	Lastig te scannen: lange data, dunne streepjes
+
+pass.unable	Kan de code niet weergeven
+
+about.title	Info
+about.how.heading	Zo werkt het
+about.third_party.heading	Code van derden
+about.how.add	Om een pas toe te voegen, kies je {button}, geef je hem een naam en kies je het formaat van de code op je ticket of kaart. Typ daarna de tekst of het nummer dat in de code staat: bij een streepjescode staat dat meestal onder de streepjes. Je kunt ook korte notities toevoegen, zoals een stoel of een gate, die op het ticket staan.
+about.how.show_light	Om een pas te tonen, open je hem in de lijst en houd je het scherm voor de scanner. Op een donkere plek zet de lichtknop de schermverlichting op volle sterkte tot je de pas sluit.
+about.how.show	Om een pas te tonen, open je hem in de lijst en houd je het scherm voor de scanner.
+about.how.sideways	Streepjescodes lopen in de lengte over het ticket, zodat ze zo groot mogelijk zijn. Kan een scanner er een niet lezen, draai het apparaat dan een kwartslag.
+about.how.menu_touch	Houd een pas in de lijst ingedrukt om hem te bewerken, te verplaatsen, op het vergrendelscherm te tonen of te verwijderen. Veeg over het scherm of gebruik de bladertoetsen om door de lijst te bladeren.
+about.how.menu_keys	Houd OK ingedrukt op een pas in de lijst om hem te bewerken, te verplaatsen, op het vergrendelscherm te tonen of te verwijderen. Ga voorbij de eerste of laatste pas van een pagina om om te bladeren.
+about.how.switch_touch	Bij een geopende pas veeg je over het scherm of gebruik je de bladertoetsen om naar de volgende of vorige pas te gaan.
+about.how.switch_keys	Bij een geopende pas ga je met omlaag of omhoog naar de volgende of vorige pas.
+about.how.lockscreen	Een pas op het vergrendelscherm blijft zichtbaar terwijl het apparaat slaapt, zodat je hem kunt tonen zonder het apparaat te ontgrendelen.
+about.app.version	Versie {version}, gemaakt door {author}. Uitgebracht onder de MIT License.
+about.app.source	Broncode en licenties:\n{repository}
+about.third_party.zxing	De encoders voor Aztec, Code 128, ITF en PDF417 zijn ports van ZXing (github.com/zxing/zxing), copyright de ZXing-auteurs, gelicentieerd onder de Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). De volledige licentietekst staat in de broncode.
+about.third_party.barcode4j	De PDF417-encoder bevat code die ZXing heeft aangepast uit Barcode4J:

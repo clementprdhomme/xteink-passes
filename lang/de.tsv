@@ -1,0 +1,74 @@
+# Passes: German messages, translated from en.tsv
+
+app.name	Tickets
+
+home.empty.title	Noch nichts gespeichert
+home.empty.text	Bewahre hier Tickets, Mitglieds- und Kundenkarten als scannbare Karten auf.
+home.create_first	Erste Karte erstellen
+home.new_pass	Neue Karte
+page.indicator	Seite {page} von {total}
+
+menu.edit	Bearbeiten
+menu.move_up	Nach oben verschieben
+menu.move_down	Nach unten verschieben
+menu.move_top	Ganz nach oben verschieben
+menu.lockscreen_show	Auf Sperrbildschirm zeigen
+menu.lockscreen_remove	Vom Sperrbildschirm entfernen
+menu.delete	Löschen
+
+delete.title	Diese Karte löschen?
+delete.message	Dies kann nicht widerrufen werden.
+delete.ok	Löschen
+
+lockscreen.shown	Die Karte ist jetzt auf dem Sperrbildschirm
+lockscreen.empty	Keine Karte zum Anzeigen. Wähle eine in „{app}“ aus.
+
+form.title_new	Neue Karte
+form.title_edit	Karte bearbeiten
+form.field.name	Name
+form.field.format	Format
+form.field.data	Daten
+form.field.notes	Notizen
+form.not_set	Nicht festgelegt
+form.create	Karte erstellen
+form.save	Karte speichern
+form.incomplete_create	Gib Name, Format und Daten ein, um eine Karte zu erstellen
+form.incomplete_save	Gib Name, Format und Daten ein, um die Karte zu speichern
+
+format.question	Welcher Code ist auf deiner Karte?
+format.qr.label	QR-Code
+format.qr.description	Ein Quadrat mit drei Kästchen in den Ecken
+format.aztec.label	Aztec
+format.aztec.description	Ein Quadrat mit einer Zielscheibe in der Mitte
+format.code128.label	Code 128
+format.code128.description	Unterschiedlich breite Striche, darunter Buchstaben oder Ziffern
+format.itf.label	ITF
+format.itf.description	Nur dünne und dicke Striche, darunter Ziffern
+format.pdf417.label	PDF417
+format.pdf417.description	Ein breites Rechteck voller winziger Striche
+format.code128.instructions	Buchstaben, Ziffern, Symbole – keine Umlaute
+format.itf.instructions	Nur Ziffern
+
+code.too_long	Zu lang für {format}
+code.code128_characters	Code 128 unterstützt nur einfachen ASCII-Text
+code.itf_characters	ITF unterstützt nur Ziffern
+code.thin_bars	Evtl. nicht lesbar: lange Daten, dünne Striche
+
+pass.unable	Code kann nicht angezeigt werden
+
+about.title	Info
+about.how.heading	Anleitung
+about.third_party.heading	Code von Drittanbietern
+about.how.add	Um eine Karte hinzuzufügen, wähle {button}, gib ihr einen Namen und wähle das Format des Codes auf deinem Ticket oder deiner Karte. Gib dann den Text oder die Zahl ein, die im Code gespeichert ist: Bei einem Barcode steht sie meist unter den Strichen. Du kannst auch kurze Notizen hinzufügen, etwa einen Sitzplatz oder ein Gate, die auf dem Ticket angezeigt werden.
+about.how.show_light	Um eine Karte vorzuzeigen, öffne sie aus der Liste und halte den Bildschirm vor den Scanner. An dunklen Orten schaltet die Lichttaste das Frontlicht auf volle Helligkeit, bis du die Karte schließt.
+about.how.show	Um eine Karte vorzuzeigen, öffne sie aus der Liste und halte den Bildschirm vor den Scanner.
+about.how.sideways	Barcodes verlaufen längs über das Ticket, damit sie so groß wie möglich sind. Kann ein Scanner einen Barcode nicht lesen, drehe das Gerät quer.
+about.how.menu_touch	Halte eine Karte in der Liste gedrückt, um sie zu bearbeiten, zu verschieben, auf dem Sperrbildschirm zu zeigen oder zu löschen. Wische oder nutze die Blättertasten, um in der Liste zu blättern.
+about.how.menu_keys	Halte OK auf einer Karte in der Liste gedrückt, um sie zu bearbeiten, zu verschieben, auf dem Sperrbildschirm zu zeigen oder zu löschen. Gehe über die erste oder letzte Karte einer Seite hinaus, um umzublättern.
+about.how.switch_touch	Wische auf einer Karte oder nutze die Blättertasten, um zur nächsten oder vorherigen Karte zu wechseln.
+about.how.switch_keys	Drücke auf einer Karte nach unten oder oben, um zur nächsten oder vorherigen Karte zu wechseln.
+about.how.lockscreen	Eine Karte auf dem Sperrbildschirm bleibt sichtbar, während das Gerät im Ruhezustand ist. So kannst du sie vorzeigen, ohne das Gerät zu entsperren.
+about.app.version	Version {version}, entwickelt von {author}. Veröffentlicht unter der MIT License.
+about.app.source	Quellcode und Lizenzen:\n{repository}
+about.third_party.zxing	Die Encoder für Aztec, Code 128, ITF und PDF417 sind Portierungen von ZXing (github.com/zxing/zxing), Copyright der ZXing-Autoren, lizenziert unter der Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). Der vollständige Lizenztext ist im Quellcode enthalten.
+about.third_party.barcode4j	Der PDF417-Encoder enthält Code, den ZXing aus Barcode4J übernommen und geändert hat:

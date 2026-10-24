@@ -1,0 +1,74 @@
+# Passes: Indonesian messages, translated from en.tsv
+
+app.name	Pass
+
+home.empty.title	Belum ada yang disimpan
+home.empty.text	Simpan tiket, kartu anggota, dan kartu loyalitas di sini sebagai pass yang dapat dipindai.
+home.create_first	Buat pass pertama Anda
+home.new_pass	Pass baru
+page.indicator	Halaman {page} dari {total}
+
+menu.edit	Edit
+menu.move_up	Naikkan
+menu.move_down	Turunkan
+menu.move_top	Pindahkan ke paling atas
+menu.lockscreen_show	Tampilkan di layar terkunci
+menu.lockscreen_remove	Hapus dari layar terkunci
+menu.delete	Hapus
+
+delete.title	Hapus pass ini?
+delete.message	Tindakan ini tidak dapat dibatalkan.
+delete.ok	Hapus
+
+lockscreen.shown	Pass ini sekarang ada di layar terkunci
+lockscreen.empty	Tidak ada pass untuk ditampilkan. Pilih satu di app {app}.
+
+form.title_new	Pass baru
+form.title_edit	Edit pass
+form.field.name	Nama
+form.field.format	Format
+form.field.data	Data
+form.field.notes	Catatan
+form.not_set	Belum diatur
+form.create	Buat pass
+form.save	Simpan pass
+form.incomplete_create	Isi nama, format, dan data untuk membuat pass
+form.incomplete_save	Isi nama, format, dan data untuk menyimpan pass
+
+format.question	Kode apa yang ada di pass Anda?
+format.qr.label	Kode QR
+format.qr.description	Persegi dengan tiga kotak di sudutnya
+format.aztec.label	Aztec
+format.aztec.description	Persegi dengan sasaran di tengahnya
+format.code128.label	Code 128
+format.code128.description	Garis beragam lebar, dengan huruf atau angka di bawahnya
+format.itf.label	ITF
+format.itf.description	Hanya garis tipis dan tebal, dengan angka di bawahnya
+format.pdf417.label	PDF417
+format.pdf417.description	Persegi panjang lebar yang penuh garis kecil
+format.code128.instructions	Huruf, angka, dan simbol, tanpa aksen
+format.itf.instructions	Hanya angka
+
+code.too_long	Terlalu panjang untuk {format}
+code.code128_characters	Code 128 hanya mendukung teks ASCII biasa
+code.itf_characters	ITF hanya mendukung angka
+code.thin_bars	Sulit dipindai: data panjang menipiskan garis
+
+pass.unable	Tidak dapat menampilkan kode
+
+about.title	Tentang
+about.how.heading	Cara menggunakan
+about.third_party.heading	Kode pihak ketiga
+about.how.add	Untuk menambahkan pass, pilih {button}, beri nama, lalu pilih format kode di tiket atau kartu Anda. Kemudian ketik teks atau angka yang tersimpan dalam kode: untuk kode bar, biasanya tercetak di bawah garis-garisnya. Anda juga dapat menambahkan catatan singkat yang tertera di tiket, seperti kursi atau gerbang.
+about.how.show_light	Untuk menunjukkan pass, buka pass dari daftar lalu arahkan layar ke pemindai. Di tempat yang redup, tombol lampu menaikkan lampu layar ke kecerahan penuh sampai Anda keluar dari pass.
+about.how.show	Untuk menunjukkan pass, buka pass dari daftar lalu arahkan layar ke pemindai.
+about.how.sideways	Kode bar dibuat memanjang di tiket agar bisa sebesar mungkin. Jika pemindai tidak dapat membacanya, putar perangkat ke samping.
+about.how.menu_touch	Sentuh dan tahan pass di daftar untuk mengedit, memindahkan, menampilkannya di layar terkunci, atau menghapusnya. Gesek layar atau gunakan tombol halaman untuk membalik halaman daftar.
+about.how.menu_keys	Tahan OK pada pass di daftar untuk mengedit, memindahkan, menampilkannya di layar terkunci, atau menghapusnya. Bergeraklah melewati pass pertama atau terakhir di halaman untuk membalik halaman.
+about.how.switch_touch	Saat melihat pass, gesek layar atau gunakan tombol halaman untuk berpindah ke pass berikutnya atau sebelumnya.
+about.how.switch_keys	Saat melihat pass, tekan bawah atau atas untuk berpindah ke pass berikutnya atau sebelumnya.
+about.how.lockscreen	Pass di layar terkunci tetap tampil saat perangkat tidur, sehingga Anda dapat menunjukkannya tanpa membuka kunci perangkat.
+about.app.version	Versi {version}, dibuat oleh {author}. Dirilis di bawah MIT License.
+about.app.source	Kode sumber dan lisensi:\n{repository}
+about.third_party.zxing	Encoder Aztec, Code 128, ITF, dan PDF417 merupakan port dari ZXing (github.com/zxing/zxing), hak cipta para penulis ZXing, dilisensikan di bawah Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). Teks lisensi lengkap ada di kode sumber.
+about.third_party.barcode4j	Encoder PDF417 berisi kode yang dimodifikasi ZXing dari Barcode4J:

@@ -1,0 +1,74 @@
+# Passes: Korean messages, translated from en.tsv
+
+app.name	패스
+
+home.empty.title	아직 저장된 항목 없음
+home.empty.text	티켓, 멤버십 카드, 포인트 카드를 스캔할 수 있는 패스로 여기에 보관하세요.
+home.create_first	첫 번째 패스 만들기
+home.new_pass	새로운 패스
+page.indicator	{total}페이지 중 {page}페이지
+
+menu.edit	편집
+menu.move_up	위로 이동
+menu.move_down	아래로 이동
+menu.move_top	맨 위로 이동
+menu.lockscreen_show	잠금 화면에 표시
+menu.lockscreen_remove	잠금 화면에서 제거
+menu.delete	삭제
+
+delete.title	이 패스를 삭제하겠습니까?
+delete.message	이 작업은 실행 취소할 수 없습니다.
+delete.ok	삭제
+
+lockscreen.shown	이제 이 패스가 잠금 화면에 표시됩니다
+lockscreen.empty	표시할 패스가 없습니다. {app} 앱에서 선택하세요.
+
+form.title_new	새로운 패스
+form.title_edit	패스 편집
+form.field.name	이름
+form.field.format	형식
+form.field.data	내용
+form.field.notes	메모
+form.not_set	설정 안 됨
+form.create	패스 만들기
+form.save	패스 저장
+form.incomplete_create	패스를 만들려면 이름, 형식, 내용을 입력하세요
+form.incomplete_save	패스를 저장하려면 이름, 형식, 내용을 입력하세요
+
+format.question	패스에 어떤 코드가 있나요?
+format.qr.label	QR 코드
+format.qr.description	세 모서리에 네모가 있는 정사각형
+format.aztec.label	Aztec
+format.aztec.description	가운데에 과녁 모양이 있는 정사각형
+format.code128.label	Code 128
+format.code128.description	굵기가 다양한 막대, 아래에 문자나 숫자
+format.itf.label	ITF
+format.itf.description	가는 막대와 굵은 막대만 있고, 아래에 숫자
+format.pdf417.label	PDF417
+format.pdf417.description	작은 막대로 가득 찬 넓은 직사각형
+format.code128.instructions	영문자, 숫자, 기호(악센트 제외)
+format.itf.instructions	숫자만 가능
+
+code.too_long	{format}에 담기에는 너무 깁니다
+code.code128_characters	Code 128은 일반 ASCII 텍스트만 지원합니다
+code.itf_characters	ITF는 숫자만 지원합니다
+code.thin_bars	스캔 안 될 수 있음: 내용이 길어 막대가 가늘어짐
+
+pass.unable	코드를 표시할 수 없음
+
+about.title	정보
+about.how.heading	사용 방법
+about.third_party.heading	타사 코드
+about.how.add	패스를 추가하려면 {button} 버튼을 선택하고 이름을 입력한 다음, 티켓이나 카드에 있는 코드의 형식을 고르세요. 그런 다음 코드에 담긴 문자나 숫자를 입력하세요. 바코드라면 보통 막대 아래에 인쇄되어 있습니다. 티켓에 적힌 좌석이나 게이트 같은 짧은 메모도 추가할 수 있습니다.
+about.how.show_light	패스를 제시하려면 목록에서 패스를 열고 화면을 스캐너에 갖다 대세요. 어두운 곳에서 조명 버튼을 누르면 패스에서 나갈 때까지 프론트라이트가 최대 밝기로 켜집니다.
+about.how.show	패스를 제시하려면 목록에서 패스를 열고 화면을 스캐너에 갖다 대세요.
+about.how.sideways	바코드는 최대한 크게 보이도록 티켓을 따라 세로로 표시됩니다. 스캐너가 읽지 못하면 기기를 옆으로 돌리세요.
+about.how.menu_touch	목록에서 패스를 길게 누르면 편집, 이동, 삭제하거나 잠금 화면에 표시할 수 있습니다. 화면을 쓸어넘기거나 페이지 키를 사용해 목록의 페이지를 넘기세요.
+about.how.menu_keys	목록의 패스에서 OK를 길게 누르면 편집, 이동, 삭제하거나 잠금 화면에 표시할 수 있습니다. 페이지의 첫 번째나 마지막 패스를 지나서 이동하면 페이지가 넘어갑니다.
+about.how.switch_touch	패스 화면에서 화면을 쓸어넘기거나 페이지 키를 사용하면 다음 또는 이전 패스로 이동합니다.
+about.how.switch_keys	패스 화면에서 아래쪽이나 위쪽 키를 누르면 다음 또는 이전 패스로 이동합니다.
+about.how.lockscreen	잠금 화면의 패스는 기기가 잠자기 상태일 때도 화면에 남아 있으므로, 기기 잠금을 해제하지 않고도 제시할 수 있습니다.
+about.app.version	버전 {version}, 제작: {author}. MIT License에 따라 배포됩니다.
+about.app.source	소스 코드 및 라이선스:\n{repository}
+about.third_party.zxing	Aztec, Code 128, ITF 및 PDF417 인코더는 ZXing(github.com/zxing/zxing)을 포팅한 것으로, 저작권은 ZXing 작성자에게 있으며 Apache License, Version 2.0(apache.org/licenses/LICENSE-2.0)에 따라 라이선스가 부여됩니다. 라이선스 전문은 소스 코드에 있습니다.
+about.third_party.barcode4j	PDF417 인코더에는 ZXing이 Barcode4J에서 수정한 코드가 포함되어 있습니다:

@@ -1,0 +1,74 @@
+# Passes: Swedish messages, translated from en.tsv
+
+app.name	Kort
+
+home.empty.title	Inget sparat än
+home.empty.text	Spara biljetter, medlemskap och stamkundskort här som kort som går att skanna.
+home.create_first	Skapa ditt första kort
+home.new_pass	Nytt kort
+page.indicator	Sida {page} av {total}
+
+menu.edit	Redigera
+menu.move_up	Flytta upp
+menu.move_down	Flytta ned
+menu.move_top	Flytta överst
+menu.lockscreen_show	Visa på låsskärmen
+menu.lockscreen_remove	Ta bort från låsskärmen
+menu.delete	Radera
+
+delete.title	Radera det här kortet?
+delete.message	Det går inte att ångra.
+delete.ok	Radera
+
+lockscreen.shown	Kortet visas nu på låsskärmen
+lockscreen.empty	Inget kort att visa. Välj ett i {app}.
+
+form.title_new	Nytt kort
+form.title_edit	Redigera kort
+form.field.name	Namn
+form.field.format	Format
+form.field.data	Data
+form.field.notes	Anteckningar
+form.not_set	Inte angivet
+form.create	Skapa kort
+form.save	Spara kort
+form.incomplete_create	Fyll i namn, format och data för att skapa ett kort
+form.incomplete_save	Fyll i namn, format och data för att spara kortet
+
+format.question	Vilken kod finns på ditt kort?
+format.qr.label	QR-kod
+format.qr.description	En kvadrat med tre rutor i hörnen
+format.aztec.label	Aztec
+format.aztec.description	En kvadrat med en måltavla i mitten
+format.code128.label	Code 128
+format.code128.description	Streck i många bredder, med bokstäver eller siffror under
+format.itf.label	ITF
+format.itf.description	Bara tunna och tjocka streck, med siffror under
+format.pdf417.label	PDF417
+format.pdf417.description	En bred rektangel full av små streck
+format.code128.instructions	Bokstäver, siffror och tecken, utan å, ä, ö
+format.itf.instructions	Endast siffror
+
+code.too_long	För långt för {format}
+code.code128_characters	Code 128 stöder bara vanlig ASCII-text
+code.itf_characters	ITF stöder bara siffror
+code.thin_bars	Kanske inte läsbar: lång data ger tunna streck
+
+pass.unable	Det går inte att visa koden
+
+about.title	Om
+about.how.heading	Så fungerar det
+about.third_party.heading	Kod från tredje part
+about.how.add	Om du vill lägga till ett kort väljer du {button}, ger det ett namn och väljer formatet på koden på din biljett eller ditt kort. Skriv sedan texten eller numret som finns i koden: för en streckkod står det oftast under strecken. Du kan också lägga till korta anteckningar, till exempel en plats eller en gate, som står på biljetten.
+about.how.show_light	Om du vill visa ett kort öppnar du det i listan och håller upp skärmen mot skannern. På mörka ställen ställer ljusknappen skärmbelysningen på full styrka tills du lämnar kortet.
+about.how.show	Om du vill visa ett kort öppnar du det i listan och håller upp skärmen mot skannern.
+about.how.sideways	Streckkoder går på längden över biljetten så att de blir så stora som möjligt. Om en skanner inte kan läsa en streckkod vänder du enheten på tvären.
+about.how.menu_touch	Håll fingret på ett kort i listan för att redigera, flytta, visa det på låsskärmen eller radera det. Svep över skärmen eller använd bläddringsknapparna för att bläddra i listan.
+about.how.menu_keys	Håll ned OK på ett kort i listan för att redigera, flytta, visa det på låsskärmen eller radera det. Gå förbi det första eller sista kortet på en sida för att byta sida.
+about.how.switch_touch	På ett kort sveper du över skärmen eller använder bläddringsknapparna för att gå till nästa eller föregående kort.
+about.how.switch_keys	På ett kort trycker du nedåt eller uppåt för att gå till nästa eller föregående kort.
+about.how.lockscreen	Ett kort på låsskärmen ligger kvar på skärmen medan enheten är i viloläge, så att du kan visa det utan att låsa upp enheten.
+about.app.version	Version {version}, skapad av {author}. Publicerad under MIT License.
+about.app.source	Källkod och licenser:\n{repository}
+about.third_party.zxing	Kodarna för Aztec, Code 128, ITF och PDF417 är portningar av ZXing (github.com/zxing/zxing), copyright ZXing-författarna, licensierade under Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). Hela licenstexten finns i källkoden.
+about.third_party.barcode4j	PDF417-kodaren innehåller kod som ZXing har ändrat från Barcode4J:

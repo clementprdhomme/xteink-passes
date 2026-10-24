@@ -1,0 +1,27 @@
+name: Feature request
+description: An idea to make the app more useful
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: The situation and what gets in the way today
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: How could the app help?
+      description: The change you have in mind, if you have one
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - X4 Pro
+        - X4 Classic
+        - Both

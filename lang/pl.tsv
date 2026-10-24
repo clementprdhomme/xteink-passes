@@ -1,0 +1,74 @@
+# Passes: Polish messages, translated from en.tsv
+
+app.name	Karty
+
+home.empty.title	Nic tu jeszcze nie ma
+home.empty.text	Trzymaj tu bilety, karnety i karty lojalnościowe jako karty do zeskanowania.
+home.create_first	Utwórz pierwszą kartę
+home.new_pass	Nowa karta
+page.indicator	Strona {page} z {total}
+
+menu.edit	Edytuj
+menu.move_up	Przenieś w górę
+menu.move_down	Przenieś w dół
+menu.move_top	Przenieś na początek
+menu.lockscreen_show	Pokaż na ekranie blokady
+menu.lockscreen_remove	Usuń z ekranu blokady
+menu.delete	Usuń
+
+delete.title	Usunąć tę kartę?
+delete.message	Tej operacji nie można cofnąć.
+delete.ok	Usuń
+
+lockscreen.shown	Karta jest teraz na ekranie blokady
+lockscreen.empty	Brak karty do pokazania. Wybierz ją w aplikacji {app}.
+
+form.title_new	Nowa karta
+form.title_edit	Edytuj kartę
+form.field.name	Nazwa
+form.field.format	Format
+form.field.data	Dane
+form.field.notes	Notatki
+form.not_set	Nie ustawiono
+form.create	Utwórz kartę
+form.save	Zapisz kartę
+form.incomplete_create	Podaj nazwę, format i dane, aby utworzyć kartę
+form.incomplete_save	Podaj nazwę, format i dane, aby zapisać kartę
+
+format.question	Jaki kod jest na twojej karcie?
+format.qr.label	Kod QR
+format.qr.description	Kwadrat z trzema kwadracikami w rogach
+format.aztec.label	Aztec
+format.aztec.description	Kwadrat z tarczą strzelniczą pośrodku
+format.code128.label	Code 128
+format.code128.description	Kreski różnej grubości, pod nimi litery lub cyfry
+format.itf.label	ITF
+format.itf.description	Tylko cienkie i grube kreski, pod nimi cyfry
+format.pdf417.label	PDF417
+format.pdf417.description	Szeroki prostokąt pełen drobnych kresek
+format.code128.instructions	Litery, cyfry i symbole, bez polskich znaków
+format.itf.instructions	Tylko cyfry
+
+code.too_long	Za długie dla {format}
+code.code128_characters	Code 128 obsługuje tylko zwykły tekst ASCII
+code.itf_characters	ITF obsługuje tylko cyfry
+code.thin_bars	Skaner może nie odczytać: kreski są za cienkie
+
+pass.unable	Nie można wyświetlić kodu
+
+about.title	Informacje
+about.how.heading	Jak używać
+about.third_party.heading	Kod innych firm
+about.how.add	Aby dodać kartę, wybierz {button}, nadaj jej nazwę i wybierz format kodu z biletu lub karty. Następnie wpisz tekst lub numer zapisany w kodzie: przy kodzie kreskowym jest on zwykle wydrukowany pod kreskami. Możesz też dodać krótkie notatki, np. miejsce lub bramkę, podane na bilecie.
+about.how.show_light	Aby pokazać kartę, otwórz ją z listy i zbliż ekran do skanera. W ciemnym miejscu przycisk światła ustawia podświetlenie na pełną jasność, dopóki nie zamkniesz karty.
+about.how.show	Aby pokazać kartę, otwórz ją z listy i zbliż ekran do skanera.
+about.how.sideways	Kody kreskowe biegną wzdłuż biletu, żeby były jak największe. Jeśli skaner nie może odczytać kodu, obróć urządzenie bokiem.
+about.how.menu_touch	Naciśnij i przytrzymaj kartę na liście, aby ją edytować, przenieść, pokazać na ekranie blokady lub usunąć. Przesuń palcem po ekranie albo użyj klawiszy stron, aby przewracać strony listy.
+about.how.menu_keys	Przytrzymaj OK na karcie na liście, aby ją edytować, przenieść, pokazać na ekranie blokady lub usunąć. Przejdź poza pierwszą lub ostatnią kartę na stronie, aby zmienić stronę.
+about.how.switch_touch	Na karcie przesuń palcem po ekranie albo użyj klawiszy stron, aby przejść do następnej lub poprzedniej karty.
+about.how.switch_keys	Na karcie naciśnij w dół lub w górę, aby przejść do następnej lub poprzedniej karty.
+about.how.lockscreen	Karta na ekranie blokady pozostaje widoczna, gdy urządzenie jest uśpione, więc możesz ją pokazać bez odblokowywania urządzenia.
+about.app.version	Wersja {version}, autor: {author}. Udostępniono na licencji MIT License.
+about.app.source	Kod źródłowy i licencje:\n{repository}
+about.third_party.zxing	Kodery Aztec, Code 128, ITF i PDF417 są przeniesione z ZXing (github.com/zxing/zxing), prawa autorskie: autorzy ZXing, na licencji Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). Pełny tekst licencji znajduje się w kodzie źródłowym.
+about.third_party.barcode4j	Koder PDF417 zawiera kod, który ZXing zmodyfikował na podstawie Barcode4J:

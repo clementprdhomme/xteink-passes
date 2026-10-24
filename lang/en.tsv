@@ -1,0 +1,109 @@
+# Passes: English messages, the reference for every language (lang/<locale>.tsv, read with ctx.i18n:t)
+# Each line is key<TAB>value. A missing key falls back to this file.
+# {name} is replaced by a value from the app: keep it as is, in the place the grammar needs.
+# The two characters \n are a line break.
+# The screen is 480px wide: most messages sit on one line, so keep them as short as the English.
+# Limits in bytes (UTF-8: Greek and Cyrillic letters take 2 bytes, Chinese, Japanese and Korean 3): longer texts are cut.
+# The system fonts have no ’ (typographic apostrophe) and no 「 」 corner brackets: they show as boxes. Use ' and “ ” instead.
+
+# The app's name: home screen title, About heading
+app.name	Passes
+
+# Home screen with no pass yet
+home.empty.title	Nothing saved yet
+home.empty.text	Keep tickets, memberships and loyalty cards here as passes you can scan.
+# Button, at most about 26 characters
+home.create_first	Create your first pass
+# Button under the list, at most about 26 characters
+home.new_pass	New pass
+# Under a list or text that has several pages: the home list, the About screen
+page.indicator	Page {page} of {total}
+
+# Menu of a pass, opened by a long press in the list; each at most 63 bytes. menu.edit is also the Edit button of the pass screen
+menu.edit	Edit
+menu.move_up	Move up
+menu.move_down	Move down
+menu.move_top	Move to top
+menu.lockscreen_show	Show on lock screen
+menu.lockscreen_remove	Remove from lock screen
+menu.delete	Delete
+
+# Confirmation before deleting a pass: title at most 95 bytes, message at most 191, button at most 63
+delete.title	Delete this pass?
+delete.message	This cannot be undone.
+delete.ok	Delete
+
+# Short message after choosing a pass for the lock screen, at most 95 bytes
+lockscreen.shown	This pass is now on the lock screen
+# Lock screen when the chosen pass no longer exists; {app} is the app's name
+lockscreen.empty	No pass to show. Choose one in {app}.
+
+# Form to create or edit a pass: screen titles
+form.title_new	New pass
+form.title_edit	Edit pass
+# Fields of the form, also the titles of the screens that edit them
+form.field.name	Name
+form.field.format	Format
+form.field.data	Data
+form.field.notes	Notes
+# Value of a field that is empty
+form.not_set	Not set
+# Button at the bottom of the form
+form.create	Create pass
+form.save	Save pass
+# Short message when a field is missing, at most 95 bytes
+form.incomplete_create	Fill in the name, format and data to create a pass
+form.incomplete_save	Fill in the name, format and data to save the pass
+
+# Screen to pick the format: the question above the list
+format.question	Which code is on your pass?
+# Formats: the name (a proper name, translate only if the language has its own, as for "QR code") and how it looks
+format.qr.label	QR code
+format.qr.description	A square with three boxes in its corners
+format.aztec.label	Aztec
+format.aztec.description	A square with a target in the middle
+format.code128.label	Code 128
+format.code128.description	Bars of many widths, with letters or digits below
+format.itf.label	ITF
+format.itf.description	Only thin and thick bars, with digits below
+format.pdf417.label	PDF417
+format.pdf417.description	A wide rectangle full of tiny bars
+# What the data of a format can hold, under the text box, on one line
+format.code128.instructions	Letters, digits and symbols, without accents
+format.itf.instructions	Digits only
+
+# Under the text box while typing the data, on one line, and as a short message (at most 95 bytes); {format} is the format's name
+code.too_long	Too long for {format}
+code.code128_characters	Code 128 only supports plain ASCII text
+code.itf_characters	ITF only supports digits
+# Under the text box while typing the data, on one line: the code can be saved, but its bars get thin
+code.thin_bars	May not scan: long data makes the bars thin
+
+# Pass screen, when the code can't be drawn
+pass.unable	Unable to display the code
+
+# About screen: the title and the headings
+about.title	About
+about.how.heading	How to use
+about.third_party.heading	Third-party code
+# How to use; {button} is the "New pass" button (home.new_pass)
+about.how.add	To add a pass, choose {button}, give it a name and pick the format of the code on your ticket or card. Then type the text or number stored in the code: for a barcode, it's usually printed under the bars. You can also add short notes, such as a seat or a gate, shown on the ticket.
+# Devices with a front light
+about.how.show_light	To show a pass, open it from the list and hold the screen up to the scanner. In a dim place, the light button turns the front light up to full brightness until you leave the pass.
+# Devices without a front light
+about.how.show	To show a pass, open it from the list and hold the screen up to the scanner.
+about.how.sideways	Barcodes run down the ticket so they can be as large as possible. If a scanner can't read one, turn the device sideways.
+# Touchscreen devices
+about.how.menu_touch	Press and hold a pass in the list to edit it, move it, show it on the lock screen or delete it. Swipe or use the page keys to turn the pages of the list.
+# Devices with keys only
+about.how.menu_keys	Hold OK on a pass in the list to edit it, move it, show it on the lock screen or delete it. Move past the first or last pass of a page to turn the page.
+# On the pass screen: touchscreen devices, then devices with keys only
+about.how.switch_touch	On a pass, swipe or use the page keys to go to the next or previous pass.
+about.how.switch_keys	On a pass, press down or up to go to the next or previous pass.
+about.how.lockscreen	A pass on the lock screen stays on the screen while the device sleeps, so you can show it without unlocking the device.
+# The app: {version}, {author} and {repository} are filled in by the app
+about.app.version	Version {version}, made by {author}. Released under the MIT License.
+about.app.source	Source code and licences:\n{repository}
+# Third-party code; the Barcode4J notice that follows stays in English, as the licence requires
+about.third_party.zxing	The Aztec, Code 128, ITF and PDF417 encoders are ports of ZXing (github.com/zxing/zxing), copyright ZXing authors, licensed under the Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). The full licence text is in the source code.
+about.third_party.barcode4j	The PDF417 encoder contains code that ZXing modified from Barcode4J:

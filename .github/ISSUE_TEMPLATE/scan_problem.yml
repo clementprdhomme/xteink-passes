@@ -1,0 +1,106 @@
+name: A code doesn't scan
+description: A pass shows its code, but a scanner can't read it
+title: "[Scanning] "
+labels: ["scanning"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it. **Don't paste the data of a real ticket or card**: it may be enough to use it. Describe
+        the kind of data instead (for example, "a 13-digit number" or "a URL of 80 characters").
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      options:
+        - QR code
+        - Aztec
+        - Code 128
+        - ITF
+        - PDF417
+    validations:
+      required: true
+
+  - type: input
+    id: data
+    attributes:
+      label: Kind of data
+      description: Its length and the characters it uses, not the data itself
+      placeholder: A number of 13 digits
+    validations:
+      required: true
+
+  - type: dropdown
+    id: warning
+    attributes:
+      label: Did the form warn that the code may not scan?
+      options:
+        - "No"
+        - "Yes"
+        - I don't remember
+    validations:
+      required: true
+
+  - type: input
+    id: scanner
+    attributes:
+      label: Scanner
+      description: Where you tried to scan it
+      placeholder: Gate of a train station, shop till, phone app…
+    validations:
+      required: true
+
+  - type: dropdown
+    id: light
+    attributes:
+      label: Front light
+      options:
+        - "Off"
+        - On, with the light button of the pass
+        - On, with the device's own settings
+        - The device has no front light
+    validations:
+      required: true
+
+  - type: textarea
+    id: tries
+    attributes:
+      label: What did you try?
+      description: Turning the device, moving it closer or farther, another scanner, the same code on a phone…
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - X4 Pro
+        - X4 Classic
+    validations:
+      required: true
+
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version
+      description: In the device's settings
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: On the About screen of the app (? button on the home screen)
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: upload
+    id: photos
+    attributes:
+      label: Photo of the pass screen
+      description: Cover or blur the code if it belongs to a real ticket or card
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.mp4,.mov"

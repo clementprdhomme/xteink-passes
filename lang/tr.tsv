@@ -1,0 +1,74 @@
+# Passes: Turkish messages, translated from en.tsv
+
+app.name	Kartlar
+
+home.empty.title	Henüz kayıtlı bir şey yok
+home.empty.text	Biletlerinizi, üyelik ve sadakat kartlarınızı burada taratılabilir kartlar olarak saklayın.
+home.create_first	İlk kartınızı oluşturun
+home.new_pass	Yeni kart
+page.indicator	Sayfa {page}/{total}
+
+menu.edit	Düzenle
+menu.move_up	Yukarı taşı
+menu.move_down	Aşağı taşı
+menu.move_top	En üste taşı
+menu.lockscreen_show	Kilitli ekranda göster
+menu.lockscreen_remove	Kilitli ekrandan kaldır
+menu.delete	Sil
+
+delete.title	Bu kart silinsin mi?
+delete.message	Bu işlem geri alınamaz.
+delete.ok	Sil
+
+lockscreen.shown	Bu kart artık kilitli ekranda
+lockscreen.empty	Gösterilecek kart yok. {app} uygulamasından bir kart seçin.
+
+form.title_new	Yeni kart
+form.title_edit	Kartı düzenle
+form.field.name	Ad
+form.field.format	Biçim
+form.field.data	Veri
+form.field.notes	Notlar
+form.not_set	Ayarlanmadı
+form.create	Kartı oluştur
+form.save	Kartı kaydet
+form.incomplete_create	Kart oluşturmak için adı, biçimi ve veriyi girin
+form.incomplete_save	Kartı kaydetmek için adı, biçimi ve veriyi girin
+
+format.question	Kartınızda hangi kod var?
+format.qr.label	QR kodu
+format.qr.description	Köşelerinde üç kutu olan bir kare
+format.aztec.label	Aztec
+format.aztec.description	Ortasında hedef olan bir kare
+format.code128.label	Code 128
+format.code128.description	Farklı kalınlıkta çizgiler, altında harf veya rakamlar
+format.itf.label	ITF
+format.itf.description	Yalnızca ince ve kalın çizgiler, altında rakamlar
+format.pdf417.label	PDF417
+format.pdf417.description	Küçük çizgilerle dolu geniş bir dikdörtgen
+format.code128.instructions	Harf, rakam ve simgeler; Türkçe karakter yok
+format.itf.instructions	Yalnızca rakamlar
+
+code.too_long	{format} için çok uzun
+code.code128_characters	Code 128 yalnızca düz ASCII metni destekler
+code.itf_characters	ITF yalnızca rakamları destekler
+code.thin_bars	Okunmayabilir: uzun veri çizgileri inceltir
+
+pass.unable	Kod görüntülenemiyor
+
+about.title	Hakkında
+about.how.heading	Nasıl kullanılır
+about.third_party.heading	Üçüncü taraf kodu
+about.how.add	Kart eklemek için {button} düğmesini seçin, karta bir ad verin ve biletinizdeki veya kartınızdaki kodun biçimini seçin. Ardından kodda saklanan metni veya sayıyı yazın: barkodlarda bu genellikle çizgilerin altında yazılıdır. Bilette yazan koltuk veya kapı gibi kısa notlar da ekleyebilirsiniz.
+about.how.show_light	Bir kartı göstermek için listeden açın ve ekranı okuyucuya tutun. Loş bir yerde ışık düğmesi, karttan çıkana kadar ekran ışığını tam parlaklığa getirir.
+about.how.show	Bir kartı göstermek için listeden açın ve ekranı okuyucuya tutun.
+about.how.sideways	Barkodlar, olabildiğince büyük olmaları için bilet boyunca uzanır. Okuyucu bir barkodu okuyamazsa cihazı yan çevirin.
+about.how.menu_touch	Düzenlemek, taşımak, kilitli ekranda göstermek veya silmek için listedeki bir karta basılı tutun. Listenin sayfalarını çevirmek için ekranı kaydırın ya da sayfa tuşlarını kullanın.
+about.how.menu_keys	Düzenlemek, taşımak, kilitli ekranda göstermek veya silmek için listedeki bir kartta OK tuşunu basılı tutun. Sayfayı çevirmek için sayfadaki ilk veya son kartın ötesine geçin.
+about.how.switch_touch	Bir kartta sonraki veya önceki karta geçmek için ekranı kaydırın ya da sayfa tuşlarını kullanın.
+about.how.switch_keys	Bir kartta sonraki veya önceki karta geçmek için aşağı veya yukarı tuşuna basın.
+about.how.lockscreen	Kilitli ekrandaki kart, cihaz uyku modundayken ekranda kalır; böylece cihazın kilidini açmadan kartı gösterebilirsiniz.
+about.app.version	Sürüm {version}, {author} tarafından yapıldı. MIT License kapsamında yayımlanmıştır.
+about.app.source	Kaynak kodu ve lisanslar:\n{repository}
+about.third_party.zxing	Aztec, Code 128, ITF ve PDF417 kodlayıcıları ZXing'den (github.com/zxing/zxing) uyarlanmıştır. Telif hakkı ZXing yazarlarına aittir ve Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0) kapsamında lisanslanmıştır. Lisansın tam metni kaynak kodundadır.
+about.third_party.barcode4j	PDF417 kodlayıcısı, ZXing'in Barcode4J'den alıp değiştirdiği kodu içerir:

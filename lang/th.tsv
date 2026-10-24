@@ -1,0 +1,74 @@
+# Passes: Thai messages, translated from en.tsv
+
+app.name	บัตร
+
+home.empty.title	ยังไม่ได้บันทึกอะไรไว้
+home.empty.text	เก็บตั๋ว บัตรสมาชิก และบัตรสะสมแต้มไว้ที่นี่ในรูปแบบบัตรที่สแกนได้
+home.create_first	สร้างบัตรใบแรกของคุณ
+home.new_pass	บัตรใหม่
+page.indicator	หน้า {page} จาก {total}
+
+menu.edit	แก้ไข
+menu.move_up	เลื่อนขึ้น
+menu.move_down	เลื่อนลง
+menu.move_top	เลื่อนไปบนสุด
+menu.lockscreen_show	แสดงบนหน้าจอล็อค
+menu.lockscreen_remove	เอาออกจากหน้าจอล็อค
+menu.delete	ลบ
+
+delete.title	ลบบัตรนี้ใช่ไหม
+delete.message	คุณไม่สามารถเลิกทำการกระทำนี้ได้
+delete.ok	ลบ
+
+lockscreen.shown	บัตรนี้อยู่บนหน้าจอล็อคแล้ว
+lockscreen.empty	ไม่มีบัตรที่จะแสดง เลือกบัตรได้ในแอป{app}
+
+form.title_new	บัตรใหม่
+form.title_edit	แก้ไขบัตร
+form.field.name	ชื่อ
+form.field.format	รูปแบบ
+form.field.data	ข้อมูล
+form.field.notes	หมายเหตุ
+form.not_set	ไม่ได้ตั้งค่า
+form.create	สร้างบัตร
+form.save	บันทึกบัตร
+form.incomplete_create	ใส่ชื่อ รูปแบบ ข้อมูลเพื่อสร้าง
+form.incomplete_save	ใส่ชื่อ รูปแบบ ข้อมูลเพื่อบันทึก
+
+format.question	บัตรของคุณมีโค้ดแบบใด
+format.qr.label	คิวอาร์โค้ด
+format.qr.description	สี่เหลี่ยมจัตุรัสที่มีกรอบสามกรอบที่มุม
+format.aztec.label	Aztec
+format.aztec.description	สี่เหลี่ยมจัตุรัสที่มีเป้าอยู่ตรงกลาง
+format.code128.label	Code 128
+format.code128.description	แถบหลายขนาด มีตัวอักษรหรือตัวเลขอยู่ด้านล่าง
+format.itf.label	ITF
+format.itf.description	มีแค่แถบบางและแถบหนา มีตัวเลขอยู่ด้านล่าง
+format.pdf417.label	PDF417
+format.pdf417.description	สี่เหลี่ยมผืนผ้ากว้างที่เต็มไปด้วยแถบเล็กๆ
+format.code128.instructions	ตัวอักษรภาษาอังกฤษ ตัวเลข และสัญลักษณ์
+format.itf.instructions	ตัวเลขเท่านั้น
+
+code.too_long	ยาวเกินไปสำหรับ {format}
+code.code128_characters	Code 128 รองรับเฉพาะข้อความ ASCII
+code.itf_characters	ITF รองรับเฉพาะตัวเลข
+code.thin_bars	อาจสแกนยาก: ข้อมูลยาวทำให้แถบบาง
+
+pass.unable	ไม่สามารถแสดงโค้ดได้
+
+about.title	เกี่ยวกับ
+about.how.heading	วิธีใช้
+about.third_party.heading	โค้ดของบุคคลที่สาม
+about.how.add	หากต้องการเพิ่มบัตร ให้เลือก {button} ตั้งชื่อ แล้วเลือกรูปแบบของโค้ดบนตั๋วหรือบัตรของคุณ จากนั้นพิมพ์ข้อความหรือตัวเลขที่เก็บอยู่ในโค้ด สำหรับบาร์โค้ด ข้อมูลนี้มักพิมพ์อยู่ใต้แถบ คุณยังเพิ่มหมายเหตุสั้นๆ ที่แสดงอยู่บนตั๋วได้ด้วย เช่น ที่นั่งหรือประตูทางเข้า
+about.how.show_light	หากต้องการแสดงบัตร ให้เปิดบัตรจากรายการแล้วยื่นหน้าจอให้เครื่องสแกน ในที่แสงน้อย ปุ่มไฟจะเพิ่มไฟหน้าจอเป็นความสว่างสูงสุดจนกว่าคุณจะออกจากบัตร
+about.how.show	หากต้องการแสดงบัตร ให้เปิดบัตรจากรายการแล้วยื่นหน้าจอให้เครื่องสแกน
+about.how.sideways	บาร์โค้ดจะแสดงตามความยาวของตั๋วเพื่อให้มีขนาดใหญ่ที่สุด หากเครื่องสแกนอ่านไม่ได้ ให้หมุนอุปกรณ์เป็นแนวนอน
+about.how.menu_touch	แตะบัตรในรายการค้างไว้เพื่อแก้ไข ย้าย แสดงบนหน้าจอล็อค หรือลบบัตร ปัดหน้าจอ หรือใช้ปุ่มเปลี่ยนหน้าเพื่อเปลี่ยนหน้ารายการ
+about.how.menu_keys	กด OK ค้างไว้บนบัตรในรายการเพื่อแก้ไข ย้าย แสดงบนหน้าจอล็อค หรือลบบัตร เลื่อนผ่านบัตรใบแรกหรือใบสุดท้ายของหน้าเพื่อเปลี่ยนหน้า
+about.how.switch_touch	ขณะดูบัตร ปัดหน้าจอ หรือใช้ปุ่มเปลี่ยนหน้า เพื่อไปยังบัตรถัดไปหรือบัตรก่อนหน้า
+about.how.switch_keys	ขณะดูบัตร กดปุ่มลงหรือขึ้นเพื่อไปยังบัตรถัดไปหรือบัตรก่อนหน้า
+about.how.lockscreen	บัตรบนหน้าจอล็อคจะยังแสดงอยู่บนหน้าจอขณะที่อุปกรณ์อยู่ในโหมดพัก คุณจึงแสดงบัตรได้โดยไม่ต้องปลดล็อคอุปกรณ์
+about.app.version	เวอร์ชัน {version} สร้างโดย {author} เผยแพร่ภายใต้สัญญาอนุญาต MIT License
+about.app.source	ซอร์สโค้ดและสัญญาอนุญาต:\n{repository}
+about.third_party.zxing	ตัวเข้ารหัส Aztec, Code 128, ITF และ PDF417 พอร์ตมาจาก ZXing (github.com/zxing/zxing) ลิขสิทธิ์เป็นของผู้เขียน ZXing ใช้สัญญาอนุญาต Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0) ข้อความสัญญาอนุญาตฉบับเต็มอยู่ในซอร์สโค้ด
+about.third_party.barcode4j	ตัวเข้ารหัส PDF417 มีโค้ดที่ ZXing ดัดแปลงมาจาก Barcode4J:

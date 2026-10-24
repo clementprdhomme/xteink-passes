@@ -1,0 +1,74 @@
+# Passes: Czech messages, translated from en.tsv
+
+app.name	Karty
+
+home.empty.title	Zatím tu nic není
+home.empty.text	Uložte si sem vstupenky, členské a věrnostní karty, připravené ke skenování.
+home.create_first	Vytvořit první kartu
+home.new_pass	Nová karta
+page.indicator	Strana {page} z {total}
+
+menu.edit	Upravit
+menu.move_up	Přesunout nahoru
+menu.move_down	Přesunout dolů
+menu.move_top	Přesunout na začátek
+menu.lockscreen_show	Zobrazit na zamčené obrazovce
+menu.lockscreen_remove	Odebrat ze zamčené obrazovky
+menu.delete	Smazat
+
+delete.title	Smazat tuto kartu?
+delete.message	Tuto akci nelze vrátit zpět.
+delete.ok	Smazat
+
+lockscreen.shown	Karta je teď na zamčené obrazovce
+lockscreen.empty	Žádná karta k zobrazení. Vyberte ji v aplikaci {app}.
+
+form.title_new	Nová karta
+form.title_edit	Upravit kartu
+form.field.name	Název
+form.field.format	Formát
+form.field.data	Data
+form.field.notes	Poznámky
+form.not_set	Nenastaveno
+form.create	Vytvořit kartu
+form.save	Uložit kartu
+form.incomplete_create	Pro vytvoření karty vyplňte název, formát a data
+form.incomplete_save	Pro uložení karty vyplňte název, formát a data
+
+format.question	Jaký kód je na vaší kartě?
+format.qr.label	QR kód
+format.qr.description	Čtverec se třemi čtverečky v rozích
+format.aztec.label	Aztec
+format.aztec.description	Čtverec s terčem uprostřed
+format.code128.label	Code 128
+format.code128.description	Čáry různé šířky, pod nimi písmena nebo číslice
+format.itf.label	ITF
+format.itf.description	Jen tenké a tlusté čáry, pod nimi číslice
+format.pdf417.label	PDF417
+format.pdf417.description	Široký obdélník plný drobných čárek
+format.code128.instructions	Písmena, číslice a symboly, bez diakritiky
+format.itf.instructions	Pouze číslice
+
+code.too_long	Příliš dlouhé pro {format}
+code.code128_characters	Code 128 podporuje jen prostý text ASCII
+code.itf_characters	ITF podporuje jen číslice
+code.thin_bars	Nemusí se načíst: dlouhá data, tenké čáry
+
+pass.unable	Kód nelze zobrazit
+
+about.title	Informace
+about.how.heading	Jak používat
+about.third_party.heading	Kód třetích stran
+about.how.add	Kartu přidáte tak, že zvolíte {button}, pojmenujete ji a vyberete formát kódu na vaší vstupence nebo kartě. Pak zadejte text nebo číslo uložené v kódu: u čárového kódu bývá vytištěné pod čárami. Můžete přidat i krátké poznámky, třeba sedadlo nebo bránu, uvedené na kartě.
+about.how.show_light	Kartu ukážete tak, že ji otevřete ze seznamu a podržíte obrazovku u skeneru. Na tmavém místě tlačítko světla nastaví podsvícení na plný jas, dokud kartu nezavřete.
+about.how.show	Kartu ukážete tak, že ji otevřete ze seznamu a podržíte obrazovku u skeneru.
+about.how.sideways	Čárové kódy vedou podél karty, aby byly co největší. Pokud je skener nepřečte, otočte zařízení na šířku.
+about.how.menu_touch	Podržením karty v seznamu ji můžete upravit, přesunout, zobrazit na zamčené obrazovce nebo smazat. Stránky seznamu otáčíte přejetím prstem nebo tlačítky pro listování.
+about.how.menu_keys	Podržením OK na kartě v seznamu ji můžete upravit, přesunout, zobrazit na zamčené obrazovce nebo smazat. Stránku otočíte přechodem za první nebo poslední kartu na stránce.
+about.how.switch_touch	Na kartě přejeďte prstem nebo použijte tlačítka pro listování a přejdete na další nebo předchozí kartu.
+about.how.switch_keys	Na kartě stiskněte dolů nebo nahoru a přejdete na další nebo předchozí kartu.
+about.how.lockscreen	Karta na zamčené obrazovce na ní zůstane, i když zařízení spí, takže ji můžete ukázat bez odemykání zařízení.
+about.app.version	Verze {version}, autor: {author}. Vydáno pod licencí MIT License.
+about.app.source	Zdrojový kód a licence:\n{repository}
+about.third_party.zxing	Kodéry Aztec, Code 128, ITF a PDF417 jsou převedené z knihovny ZXing (github.com/zxing/zxing), copyright autoři ZXing, pod licencí Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). Úplné znění licence je ve zdrojovém kódu.
+about.third_party.barcode4j	Kodér PDF417 obsahuje kód, který ZXing upravil z Barcode4J:

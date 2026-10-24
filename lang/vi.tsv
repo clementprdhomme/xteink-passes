@@ -1,0 +1,74 @@
+# Passes: Vietnamese messages, translated from en.tsv
+
+app.name	Thẻ
+
+home.empty.title	Chưa lưu gì
+home.empty.text	Lưu vé, thẻ thành viên và thẻ khách hàng thân thiết tại đây để quét khi cần.
+home.create_first	Tạo thẻ đầu tiên
+home.new_pass	Thẻ mới
+page.indicator	Trang {page}/{total}
+
+menu.edit	Sửa
+menu.move_up	Chuyển lên
+menu.move_down	Chuyển xuống
+menu.move_top	Chuyển lên trên cùng
+menu.lockscreen_show	Hiển thị trên màn hình khóa
+menu.lockscreen_remove	Xóa khỏi màn hình khóa
+menu.delete	Xóa
+
+delete.title	Xóa thẻ này?
+delete.message	Bạn không thể hoàn tác thao tác này.
+delete.ok	Xóa
+
+lockscreen.shown	Thẻ này đã có trên màn hình khóa
+lockscreen.empty	Không có thẻ để hiển thị. Hãy chọn một thẻ trong ứng dụng {app}.
+
+form.title_new	Thẻ mới
+form.title_edit	Sửa thẻ
+form.field.name	Tên
+form.field.format	Định dạng
+form.field.data	Dữ liệu
+form.field.notes	Ghi chú
+form.not_set	Chưa đặt
+form.create	Tạo thẻ
+form.save	Lưu thẻ
+form.incomplete_create	Nhập tên, định dạng và dữ liệu để tạo thẻ
+form.incomplete_save	Nhập tên, định dạng và dữ liệu để lưu thẻ
+
+format.question	Thẻ của bạn có loại mã nào?
+format.qr.label	Mã QR
+format.qr.description	Hình vuông có ba ô vuông ở các góc
+format.aztec.label	Aztec
+format.aztec.description	Hình vuông có hình bia ở giữa
+format.code128.label	Code 128
+format.code128.description	Các vạch nhiều độ rộng, bên dưới có chữ hoặc số
+format.itf.label	ITF
+format.itf.description	Chỉ có vạch mảnh và vạch dày, bên dưới có số
+format.pdf417.label	PDF417
+format.pdf417.description	Hình chữ nhật rộng đầy những vạch nhỏ li ti
+format.code128.instructions	Chữ cái, chữ số và ký hiệu, không dấu
+format.itf.instructions	Chỉ chữ số
+
+code.too_long	Quá dài cho {format}
+code.code128_characters	Code 128 chỉ hỗ trợ văn bản ASCII thuần
+code.itf_characters	ITF chỉ hỗ trợ chữ số
+code.thin_bars	Có thể khó quét: dữ liệu dài làm vạch mảnh
+
+pass.unable	Không thể hiển thị mã
+
+about.title	Giới thiệu
+about.how.heading	Cách sử dụng
+about.third_party.heading	Mã của bên thứ ba
+about.how.add	Để thêm thẻ, hãy chọn {button}, đặt tên rồi chọn định dạng của mã trên vé hoặc thẻ của bạn. Sau đó, nhập văn bản hoặc số được lưu trong mã: với mã vạch, nội dung này thường được in bên dưới các vạch. Bạn cũng có thể thêm ghi chú ngắn có trên vé, chẳng hạn như số ghế hoặc cửa.
+about.how.show_light	Để xuất trình thẻ, hãy mở thẻ từ danh sách rồi đưa màn hình về phía máy quét. Ở nơi thiếu sáng, nút đèn sẽ tăng đèn nền lên độ sáng tối đa cho đến khi bạn rời khỏi thẻ.
+about.how.show	Để xuất trình thẻ, hãy mở thẻ từ danh sách rồi đưa màn hình về phía máy quét.
+about.how.sideways	Mã vạch được đặt dọc theo vé để có kích thước lớn nhất. Nếu máy quét không đọc được, hãy xoay ngang thiết bị.
+about.how.menu_touch	Chạm và giữ một thẻ trong danh sách để sửa, di chuyển, hiển thị trên màn hình khóa hoặc xóa thẻ. Vuốt màn hình hoặc dùng các phím chuyển trang để lật trang danh sách.
+about.how.menu_keys	Giữ OK trên một thẻ trong danh sách để sửa, di chuyển, hiển thị trên màn hình khóa hoặc xóa thẻ. Đi qua thẻ đầu tiên hoặc cuối cùng của một trang để lật trang.
+about.how.switch_touch	Khi xem một thẻ, vuốt màn hình hoặc dùng các phím chuyển trang để chuyển sang thẻ tiếp theo hoặc thẻ trước.
+about.how.switch_keys	Khi xem một thẻ, nhấn xuống hoặc lên để chuyển sang thẻ tiếp theo hoặc thẻ trước.
+about.how.lockscreen	Thẻ trên màn hình khóa vẫn hiển thị khi thiết bị ở chế độ ngủ, nên bạn có thể xuất trình thẻ mà không cần mở khóa thiết bị.
+about.app.version	Phiên bản {version}, do {author} tạo. Phát hành theo giấy phép MIT License.
+about.app.source	Mã nguồn và giấy phép:\n{repository}
+about.third_party.zxing	Các bộ mã hóa Aztec, Code 128, ITF và PDF417 được chuyển thể từ ZXing (github.com/zxing/zxing), bản quyền thuộc về các tác giả ZXing, được cấp phép theo Apache License, Version 2.0 (apache.org/licenses/LICENSE-2.0). Toàn văn giấy phép có trong mã nguồn.
+about.third_party.barcode4j	Bộ mã hóa PDF417 chứa mã mà ZXing đã sửa đổi từ Barcode4J:

@@ -1,0 +1,74 @@
+# Passes: Simplified Chinese messages, translated from en.tsv
+
+app.name	卡券
+
+home.empty.title	还没有保存任何内容
+home.empty.text	在这里把门票、会员卡和积分卡保存为可扫描的卡券。
+home.create_first	创建第一张卡券
+home.new_pass	新建卡券
+page.indicator	第 {page} 页，共 {total} 页
+
+menu.edit	编辑
+menu.move_up	上移
+menu.move_down	下移
+menu.move_top	置顶
+menu.lockscreen_show	在锁屏上显示
+menu.lockscreen_remove	从锁屏上移除
+menu.delete	删除
+
+delete.title	删除此卡券？
+delete.message	此操作无法撤销。
+delete.ok	删除
+
+lockscreen.shown	此卡券已显示在锁屏上
+lockscreen.empty	没有可显示的卡券。请在“{app}”中选择一张。
+
+form.title_new	新建卡券
+form.title_edit	编辑卡券
+form.field.name	名称
+form.field.format	格式
+form.field.data	内容
+form.field.notes	备注
+form.not_set	未设置
+form.create	创建卡券
+form.save	保存卡券
+form.incomplete_create	请填写名称、格式和内容以创建卡券
+form.incomplete_save	请填写名称、格式和内容以保存卡券
+
+format.question	你的卡券上是哪种码？
+format.qr.label	二维码
+format.qr.description	正方形，三个角上各有一个方框
+format.aztec.label	Aztec
+format.aztec.description	正方形，中间有一个靶心
+format.code128.label	Code 128
+format.code128.description	粗细不一的线条，下方有字母或数字
+format.itf.label	ITF
+format.itf.description	只有细线条和粗线条，下方有数字
+format.pdf417.label	PDF417
+format.pdf417.description	宽长方形，布满细小的线条
+format.code128.instructions	字母、数字和符号，不含重音符号
+format.itf.instructions	仅限数字
+
+code.too_long	内容过长，超出 {format} 的容量
+code.code128_characters	Code 128 仅支持基本 ASCII 文本
+code.itf_characters	ITF 仅支持数字
+code.thin_bars	可能无法扫描：内容过长会使线条变细
+
+pass.unable	无法显示此码
+
+about.title	关于
+about.how.heading	使用方法
+about.third_party.heading	第三方代码
+about.how.add	要添加卡券，请选择“{button}”，为它命名，然后选择门票或卡片上的码的格式。接着输入码中存储的文字或数字：如果是条形码，这些内容通常印在线条下方。你还可以添加简短的备注，例如票面上的座位号或入口。
+about.how.show_light	要出示卡券，请在列表中打开它，并将屏幕对准扫码器。在光线昏暗的地方，按灯光按钮可将阅读灯调到最亮，直到你离开该卡券。
+about.how.show	要出示卡券，请在列表中打开它，并将屏幕对准扫码器。
+about.how.sideways	条形码沿票面纵向显示，以便尽可能放大。如果扫码器无法识别，请将设备横过来。
+about.how.menu_touch	在列表中按住卡券，即可编辑、移动、在锁屏上显示或删除它。轻扫屏幕或使用翻页键，即可翻阅列表。
+about.how.menu_keys	在列表中的卡券上按住 OK 键，即可编辑、移动、在锁屏上显示或删除它。移过当前页的第一张或最后一张卡券即可翻页。
+about.how.switch_touch	在卡券页面上轻扫屏幕或使用翻页键，即可切换到下一张或上一张卡券。
+about.how.switch_keys	在卡券页面上按向下键或向上键，即可切换到下一张或上一张卡券。
+about.how.lockscreen	锁屏上的卡券在设备休眠时仍会显示，因此无需解锁设备即可出示。
+about.app.version	版本 {version}，由 {author} 制作。依据 MIT License 发布。
+about.app.source	源代码和许可证：\n{repository}
+about.third_party.zxing	Aztec、Code 128、ITF 和 PDF417 编码器移植自 ZXing（github.com/zxing/zxing），版权归 ZXing 作者所有，依据 Apache License, Version 2.0（apache.org/licenses/LICENSE-2.0）授权。完整的许可证文本见源代码。
+about.third_party.barcode4j	PDF417 编码器包含由 ZXing 修改自 Barcode4J 的代码：

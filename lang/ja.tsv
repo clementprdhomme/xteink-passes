@@ -1,0 +1,75 @@
+# Passes: Japanese messages, translated from en.tsv
+# The device font draws only the kanji shared with Simplified Chinese (GB2312), plus 編動異線細並長: write other words in kana
+
+app.name	パス
+
+home.empty.title	まだ何も保存されていません
+home.empty.text	チケット、メンバーズカード、ポイントカードを、スキャンできるパスとしてここに保存できます。
+home.create_first	最初のパスを作成
+home.new_pass	新しいパス
+page.indicator	{page} / {total} ページ
+
+menu.edit	編集
+menu.move_up	上へ移動
+menu.move_down	下へ移動
+menu.move_top	一番上へ移動
+menu.lockscreen_show	ロック画面に表示
+menu.lockscreen_remove	ロック画面から外す
+menu.delete	削除
+
+delete.title	このパスを削除しますか？
+delete.message	この操作は取り消せません。
+delete.ok	削除
+
+lockscreen.shown	このパスをロック画面に表示しました
+lockscreen.empty	表示するパスがありません。“{app}”で指定してください。
+
+form.title_new	新しいパス
+form.title_edit	パスを編集
+form.field.name	名前
+form.field.format	形式
+form.field.data	内容
+form.field.notes	メモ
+form.not_set	未入力
+form.create	パスを作成
+form.save	パスを保存
+form.incomplete_create	パスを作成するには、名前、形式、内容を入力してください
+form.incomplete_save	パスを保存するには、名前、形式、内容を入力してください
+
+format.question	パスに付いているのはどのコードですか？
+format.qr.label	QRコード
+format.qr.description	3つの角に四角がある正方形
+format.aztec.label	Aztec
+format.aztec.description	中央にターゲットがある正方形
+format.code128.label	Code 128
+format.code128.description	太さの異なる線と、その下に英字や数字
+format.itf.label	ITF
+format.itf.description	細い線と太い線だけで、その下に数字
+format.pdf417.label	PDF417
+format.pdf417.description	細かい線がぎっしり並んだ横長の長方形
+format.code128.instructions	半角文字のみ（アクセントなし）
+format.itf.instructions	数字のみ
+
+code.too_long	{format}には長すぎます
+code.code128_characters	Code 128で使えるのはASCII文字のみです
+code.itf_characters	ITFで使えるのは数字のみです
+code.thin_bars	スキャンできない可能性：内容が長く線が細い
+
+pass.unable	コードを表示できません
+
+about.title	このアプリについて
+about.how.heading	使い方
+about.third_party.heading	サードパーティのコード
+about.how.add	パスを追加するには、“{button}”を押して名前を付け、チケットやカードにあるコードの形式を指定します。次に、コードに含まれる文字や数字を入力します。バーコードなら、通常は線の下に印刷されています。座席やゲートなど、チケットに表示する短いメモも追加できます。
+about.how.show_light	パスを提示するには、リストからパスを表示して、画面をスキャナーにかざします。暗いところでは、ライトボタンを押すとフロントライトが最大の明るさになり、ほかの画面に移るまでそのままになります。
+about.how.show	パスを提示するには、リストからパスを表示して、画面をスキャナーにかざします。
+about.how.sideways	バーコードはできるだけ大きく表示するため、チケットの長い方向に表示されます。スキャンできないときは、デバイスを横向きにしてください。
+about.how.menu_touch	リストのパスを長押しすると、編集、移動、ロック画面への表示、削除ができます。スワイプするか、ページキーを使ってリストのページをめくります。
+about.how.menu_keys	リストのパスでOKを長押しすると、編集、移動、ロック画面への表示、削除ができます。ページの最初または最後のパスを越えて移動すると、ページがめくられます。
+about.how.switch_touch	パスの画面でスワイプするか、ページキーを使うと、次または前のパスに移動します。
+about.how.switch_keys	パスの画面で下キーまたは上キーを押すと、次または前のパスに移動します。
+about.how.lockscreen	ロック画面に表示したパスは、デバイスのスリープ中も画面に残るため、ロックを解除せずに提示できます。
+about.app.version	バージョン {version}、作成：{author}。MIT Licenseで提供されています。
+about.app.source	ソースコードとライセンス：\n{repository}
+about.third_party.zxing	Aztec、Code 128、ITF、PDF417のエンコーダーはZXing（github.com/zxing/zxing）を移植したものです。コピーライトはZXingの作者にあり、Apache License, Version 2.0（apache.org/licenses/LICENSE-2.0）の下でライセンスされています。ライセンスの全文はソースコードにあります。
+about.third_party.barcode4j	PDF417のエンコーダーには、ZXingがBarcode4Jをもとに手を加えたコードが含まれています：
